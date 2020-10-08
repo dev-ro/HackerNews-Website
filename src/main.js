@@ -1,8 +1,19 @@
 import Vue from 'vue'
 import App from './App.vue'
 import './registerServiceWorker'
+import './api'
+
 import router from './router'
 import store from './store'
+
+// Global Components
+import '@/global/components'
+
+// Plugins
+import './plugins/icons'
+import './plugins/meta'
+// Filters
+import './filters'
 
 Vue.config.productionTip = false
 

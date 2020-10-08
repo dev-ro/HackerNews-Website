@@ -1,0 +1,23 @@
+@import './variables';
+@import './nprogress';
+@import 'bootstrap';
+@import './plugins';
+// Global
+body {
+    background: $white;
+}
+a {
+    transition : all .1s ease-in;
+}
+.timestampshow {
+    color: $gray;
+    margin:0;
+    font-size: .8rem;
+}
+
+.stickyside {
+    height: 480px;
+    overflow-y: scroll;
+    position: sticky;
+    top: 0px;
+}
