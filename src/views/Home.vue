@@ -7,7 +7,7 @@
         <router-link slot="rightmenu" :to="{name: 'Jobs'}">View more  <font-awesome-icon :icon="['fas', 'arrow-right']" /></router-link>
       </title-heading>
       <div class="row" v-if="jobs">
-        <div v-for="(job, index) in jobs.slice(0, 8)" :key="index" class="col-3 mb-3">
+        <div v-for="(job, index) in jobs.slice(0, 8)" :key="index" class="col-md-4 mb-3">
           <SmallCard
             :title="job.title"
             :time="job.time"
